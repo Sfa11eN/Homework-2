@@ -51,8 +51,22 @@ public class Main {
         System.out.println(" Разница между бойцами " + result2 + " кг ");
         var result3 = fighterWeight - FighterWeight;
         System.out.println(" Вычитание из большей массы меньшей " + result3 + " кг ");
-        var result4 = (fighterWeight % FighterWeight);
+        var result4 = fighterWeight % FighterWeight;
         System.out.println(" С функцией остаток от деления ПО ПОДСКАЗКЕ В УСЛОВИИ УРОКА " + result4 + " кг " + " НО ЭТО ЯВНО НЕПРАВИЛЬНО");
+
+        System.out.println(" ");
+
+        var Time=640;
+        var WorkTime=8;
+        var Workers=Time/WorkTime;
+        System.out.println("Всего работников в компании " + Workers + " человек " );
+        var Reinforcement=94;
+        System.out.println("Допустим что в компании работает на " + Reinforcement + " сотрудника больше ");
+        var Pull=Workers+Reinforcement;
+        var FinalTime=Pull*8;
+        System.out.println("Если в компании работает " + Pull + " человека ," + " то всего " + FinalTime + " часов работы может быть поделено между сотрудниками ");
+
+
 
 
     }
