@@ -58,7 +58,7 @@ public class Main {
         var result4 = fighterWeight2 % fighterWeight1;
         System.out.println(" С функцией остаток от деления  " + result4 + " кг " + " ");
 
-        System.out.println(" Задача 8 ");
+        System.out.println(" Задача 8  ");
 
         var Time = 640;
         var WorkTime = 8;
